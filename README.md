@@ -1,17 +1,13 @@
-# 🚀 Collab.io  
+# 🤝 Collab.io  
 ## Brand & Influencer Collaboration Platform  
+
+🚀 *A full-stack marketplace connecting brands with creators.*
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v4-38B2AC?style=for-the-badge&logo=tailwindcss)
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Planned-4169E1?style=for-the-badge&logo=postgresql)
-![Supabase](https://img.shields.io/badge/Supabase-Planned-3FCF8E?style=for-the-badge&logo=supabase)
-![Stripe](https://img.shields.io/badge/Stripe-Connect%20Planned-635BFF?style=for-the-badge&logo=stripe)
-
-
-🚀 *A full-stack marketplace connecting brands with creators.*
 
 🔗 **Live Demo:** https://brand-collab1.vercel.app   
 
