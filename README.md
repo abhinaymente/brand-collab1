@@ -34,26 +34,6 @@ This application was built with a focus on **performance**, **maintainability**,
 *   **UI System**: Custom component library built on top of `clsx` and `class-variance-authority` (CVA) for maximum reusability.
 *   **State Management**: URL-based state (search params) for shareable, bookmarkable UI states.
 
-## � Getting Started
-
-This project is configured for easy local development.
-
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/brand-collab.git
-    cd brand-collab
-    ```
-
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-3.  **Run the application**
-    ```bash
-    npm run dev
-    ```
-
 ## 🔮 Roadmap
 
 *   **Database Integration**: Migration from mock data to a robust PostgreSQL schema (via Supabase).
