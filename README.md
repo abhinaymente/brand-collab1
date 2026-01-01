@@ -3,6 +3,8 @@
 **Developed by Abhinay Mente**  
 *Aspiring CSE Student | AI & Web Development Enthusiast*
 
+**🔴 Live Demo:** [https://brand-collab1.vercel.app](https://brand-collab1.vercel.app)
+
 ---
 
 ## 📖 Overview
