@@ -53,7 +53,6 @@ This project is configured for easy local development.
     ```bash
     npm run dev
     ```
-    Access the app at [http://localhost:3000](http://localhost:3000).
 
 ## 🔮 Roadmap
 
