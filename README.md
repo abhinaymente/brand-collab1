@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Collab.io | Brand & Influencer Collaboration Platform
 
-## Getting Started
+**Developed by Abhinay Mente**  
+*Aspiring CSE Student | AI & Web Development Enthusiast*
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Collab.io** is a full-stack web application designed to streamline the influencer marketing ecosystem. It bridges the gap between brands and content creators by providing a unified, role-based platform for discovery, negotiation, and campaign management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project demonstrates a modern, scalable approach to web development, leveraging **Next.js 16 (App Router)** for server-side rendering and **Tailwind CSS 4** for a high-performance, premium design system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Key Features
 
-## Learn More
+### 🏢 For Brands (The Client)
+*   **Campaign Management Dashboard**: Create and track marketing campaigns with specific budgets (₹) and timelines.
+*   **Smart Discovery**: Filterable search engine to find influencers based on niche, engagement metrics, and location.
+*   **Applicant Review**: Streamlined interface to review proposals from creators.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 For Creators (The Talent)
+*   **Professional Media Kit**: Dynamic profile page showcasing portfolio, social signals, and audience demographics.
+*   **Opportunity Feed**: "Find Work" section to browse and apply for relevant brand campaigns.
+*   **Proposal System**: Structured submission flow for pitch decks and rate cards.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technical Architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This application was built with a focus on **performance**, **maintainability**, and **user experience**.
 
-## Deploy on Vercel
+*   **Frontend**: React 19, TypeScript, Tailwind CSS (OKLCH Color implementation).
+*   **Framework**: Next.js 16 using the App Router for SEO-optimized Server Components.
+*   **UI System**: Custom component library built on top of `clsx` and `class-variance-authority` (CVA) for maximum reusability.
+*   **State Management**: URL-based state (search params) for shareable, bookmarkable UI states.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## � Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is configured for easy local development.
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/brand-collab.git
+    cd brand-collab
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the application**
+    ```bash
+    npm run dev
+    ```
+    Access the app at [http://localhost:3000](http://localhost:3000).
+
+## 🔮 Roadmap
+
+*   **Database Integration**: Migration from mock data to a robust PostgreSQL schema (via Supabase).
+*   **Real-time Messaging**: Implementation of WebSockets for instant brand-creator negotiation logic.
+*   **Payment Gateway**: Secure escrow integration using Stripe Connect.
+
+---
+*© 2024 Abhinay Mente. Open for collaboration and feedback.*
