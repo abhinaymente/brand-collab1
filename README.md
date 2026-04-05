@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo
 
-**Experience the platform live:** [https://brand-collab1.vercel.app](https://brand-collab1.vercel.app) *(Update this link to your actual Vercel URL)*
+**Experience the platform live:** [https://brand-collab1.vercel.app](https://brand-collab1.vercel.app)
 
 ---
 
