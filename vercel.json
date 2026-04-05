@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": "angular",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/collab-io/browser"
+}
