@@ -25,6 +25,7 @@ export interface Application {
   status: 'pending' | 'accepted' | 'rejected';
   created_at: string;
   campaigns?: Campaign;
+  profiles?: { full_name: string; avatar_url: string };
 }
 
 @Injectable({ providedIn: 'root' })
@@ -143,5 +144,25 @@ export class CampaignService {
       .order('created_at', { ascending: false });
     if (error) throw error;
     return (data as Application[]) ?? [];
+  }
+
+  async getBrandApplications(): Promise<Application[]> {
+    const userId = this.authService.getCurrentUser()?.id;
+    if (!userId) return [];
+    const { data, error } = await this.supabase
+      .from('applications')
+      .select('*, campaigns!inner(*), profiles(full_name, avatar_url)')
+      .eq('campaigns.brand_id', userId)
+      .order('created_at', { ascending: false });
+    if (error) throw error;
+    return (data as Application[]) ?? [];
+  }
+
+  async updateApplicationStatus(applicationId: string, status: 'accepted' | 'rejected'): Promise<void> {
+    const { error } = await this.supabase
+      .from('applications')
+      .update({ status })
+      .eq('id', applicationId);
+    if (error) throw error;
   }
 }

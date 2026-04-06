@@ -99,4 +99,15 @@ export class AuthService {
       this.profile.set(data as Profile);
     }
   }
+
+  async getCreators(): Promise<Profile[]> {
+    const { data, error } = await this.supabase
+      .from('profiles')
+      .select('id, full_name, avatar_url, bio')
+      .eq('role', 'influencer')
+      .order('full_name', { ascending: true });
+      
+    if (error) throw error;
+    return (data as Profile[]) ?? [];
+  }
 }
